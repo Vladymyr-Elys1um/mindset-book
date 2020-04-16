@@ -10,11 +10,16 @@ body {
 }
 
 ul {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: 0;
+  margin-block-end: 0;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+  list-style-type: none;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
 .main.container {
   text-align: center;
@@ -40,32 +45,55 @@ ul {
   text-align: center;
 }
 
+.header {
+  background-color: #164d7a;
+  background: #164d7a;
+  color: #2fa14c;
+  text-align: center;
+  font-family: Verdana;
+  font-style: italic;
+  font-size: 14px;
+  list-style: none;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  columns: 4;
+  justify-content: center;
+  background-color: lightblue;
+}
+
 .team-list-item {
   width: 280px;
   padding: 2px;
-  display: inline-block;
   text-align: center;
   margin-right: 14px;
   margin-left: 14px;
   margin-bottom: 55px;
+  align-self: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.header {
-  background-color: #164d7a;
-  background: #164d7a;
-  color: #fff;
-  text-align: center;
-  font-family: "Open Sans";
-  font-size: 14px;
-  list-style: none;
+.member-name {
+  font-weight: 700;
+  font-size: 20px;
 }
 
-.team-list {
-  list-style: none;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  columns: 2;
+.member-position {
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.team-member-photo {
+  border: solid 0.5px rgb(14, 35, 104);
+  -webkit-box-shadow: 2px 10px 59px -3px rgb(25, 95, 199);
+  -moz-box-shadow: 2px 10px 59px -3px rgb(27, 94, 196);
+  box-shadow: 2px 10px 59px -3px rgba(43, 113, 217, 1);
 }
 
 .footer {
@@ -74,7 +102,11 @@ ul {
   background: #164d7a;
   color: #fff;
   text-align: center;
-  font-family: "Open Sans";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
   list-style: none;
+}
+
+.year {
+  color: grey;
 }
