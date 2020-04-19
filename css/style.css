@@ -48,7 +48,11 @@
   height: 500px;
   align-items: center;
   font-size: larger;
+}
 
+#header-text {
+  padding-top: 5%;
+  
 }
 
 .box-type1 {
@@ -69,6 +73,14 @@
 
 .article {
   padding-left: 30%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+ 
+}
+
+.column-name {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
  .first-box-result {
