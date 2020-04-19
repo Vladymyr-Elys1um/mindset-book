@@ -48,7 +48,7 @@ li {
 .header {
   background-color: #164d7a;
   background: #164d7a;
-  color: #2fa14c;
+  color: #2f9da1;
   text-align: center;
   font-family: Verdana;
   font-style: italic;
@@ -65,7 +65,20 @@ li {
   list-style: none;
   columns: 4;
   justify-content: center;
-  background-color: lightblue;
+  background-image: radial-gradient(
+    rgba(26, 126, 184, 0.9),
+    rgba(38, 134, 187, 0.91),
+    rgba(51, 141, 191, 0.92),
+    rgba(63, 149, 194, 0.93),
+    rgba(75, 157, 198, 0.94),
+    rgba(88, 164, 201, 0.95),
+    rgba(100, 172, 205, 0.95),
+    rgba(113, 179, 208, 0.96),
+    rgba(125, 187, 212, 0.97),
+    rgba(137, 195, 215, 0.98),
+    rgba(150, 202, 219, 0.99),
+    rgb(162, 210, 222)
+  );
 }
 
 .team-list-item {
