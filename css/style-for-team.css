@@ -59,7 +59,7 @@ li {
 }
 
 .team-list {
-  padding-top: 5px;
+  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -110,4 +110,15 @@ li {
 
 .year {
   color: grey;
+}
+
+.team-member-photo {
+  transition: filter 1.2s ease-in-out;
+  -webkit-filter: grayscale(99%);
+  filter: grayscale(99%);
+}
+
+.team-member-photo:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
