@@ -132,3 +132,22 @@ max-width: 75%;
 .box-names {
   background-image: linear-gradient(to right, rgb(101, 115, 255), rgb(111, 114, 247), rgb(120, 114, 239), rgb(130, 113, 231), rgb(139, 112, 223), rgb(149, 111, 215), rgb(158, 111, 208), rgb(168, 110, 200), rgb(177, 109, 192), rgb(187, 108, 184), rgb(196, 108, 176), rgb(206, 107, 168));
 }
+
+.img-in-box {
+  padding-top: 20%;
+  border-radius: 5px;
+}
+
+.img-in-box2 {
+  padding-top: 5%;
+  padding-left: 10%;
+  border-radius: 5px;
+}
+}
+
+.img-in-box3 {
+  padding-left: 25%;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+}
