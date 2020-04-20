@@ -16,6 +16,11 @@ li {
   font-size: large;
 }
 
+p {
+  font-size: large;
+  padding-top: 5px;
+}
+
 .header-list {
   display: flex;
   list-style: none;
@@ -77,6 +82,7 @@ li {
   justify-content: space-around;
   background-image: linear-gradient(to right, rgba(119, 182, 219, 0.9), rgba(127, 178, 203, 0.91), rgba(135, 173, 188, 0.92), rgba(144, 169, 172, 0.93), rgba(152, 164, 156, 0.94), rgba(160, 160, 140, 0.95), rgba(168, 155, 125, 0.95), rgba(176, 151, 109, 0.96), rgba(184, 146, 93, 0.97), rgba(193, 142, 77, 0.98), rgba(201, 137, 62, 0.99), rgb(209, 133, 46));
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .article {
@@ -108,4 +114,21 @@ li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
   list-style: none;
+}
+
+.theme-name {
+  font-style: italic;
+  font-size: large;
+}
+
+.first-box-item {
+  max-width: 40%;
+}
+
+.second-box-item {
+max-width: 75%;
+}
+
+.box-names {
+  background-image: linear-gradient(to right, rgb(101, 115, 255), rgb(111, 114, 247), rgb(120, 114, 239), rgb(130, 113, 231), rgb(139, 112, 223), rgb(149, 111, 215), rgb(158, 111, 208), rgb(168, 110, 200), rgb(177, 109, 192), rgb(187, 108, 184), rgb(196, 108, 176), rgb(206, 107, 168));
 }
