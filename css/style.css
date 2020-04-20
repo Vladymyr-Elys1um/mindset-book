@@ -12,7 +12,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+/*
 .wrapper {
   flex-wrap: wrap;
   display: column;
@@ -25,14 +25,15 @@
 }
 
 .container {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
 }
+*/
 body {
-  margin: 5px;
-  -webkit-box-shadow: 0px 0px 31px 4px rgba(41, 148, 230, 1);
-  -moz-box-shadow: 0px 0px 31px 4px rgba(41, 148, 230, 1);
-  box-shadow: 0px 0px 31px 4px rgba(41, 148, 230, 1);
+  margin: 5px;.
+  -webkit-box-shadow: 0px 0px 31px 4px rgba(41,148,230,1);
+  -moz-box-shadow: 0px 0px 31px 4px rgba(41,148,230,1);
+  box-shadow: 0px 0px 31px 4px rgba(41,148,230,1)
 }
 
 li {
@@ -51,20 +52,7 @@ p {
   align-content: space-around;
   height: 60px;
   align-items: center;
-  background-image: radial-gradient(
-    rgba(110, 186, 230, 0.9),
-    rgba(104, 178, 228, 0.91),
-    rgba(98, 171, 226, 0.92),
-    rgba(93, 163, 224, 0.93),
-    rgba(87, 156, 222, 0.94),
-    rgba(81, 148, 220, 0.95),
-    rgba(75, 141, 219, 0.95),
-    rgba(69, 133, 217, 0.96),
-    rgba(63, 126, 215, 0.97),
-    rgba(58, 118, 213, 0.98),
-    rgba(52, 111, 211, 0.99),
-    rgb(46, 103, 209)
-  );
+  background-image: radial-gradient(rgba(110, 186, 230, 0.9), rgba(104, 178, 228, 0.91), rgba(98, 171, 226, 0.92), rgba(93, 163, 224, 0.93), rgba(87, 156, 222, 0.94), rgba(81, 148, 220, 0.95), rgba(75, 141, 219, 0.95), rgba(69, 133, 217, 0.96), rgba(63, 126, 215, 0.97), rgba(58, 118, 213, 0.98), rgba(52, 111, 211, 0.99), rgb(46, 103, 209));
 }
 
 .header-list-item {
@@ -84,21 +72,7 @@ p {
   padding-top: 15px;
   display: flex;
   justify-content: space-around;
-  background-image: linear-gradient(
-    to right,
-    rgba(119, 182, 219, 0.9),
-    rgba(127, 178, 203, 0.91),
-    rgba(135, 173, 188, 0.92),
-    rgba(144, 169, 172, 0.93),
-    rgba(152, 164, 156, 0.94),
-    rgba(160, 160, 140, 0.95),
-    rgba(168, 155, 125, 0.95),
-    rgba(176, 151, 109, 0.96),
-    rgba(184, 146, 93, 0.97),
-    rgba(193, 142, 77, 0.98),
-    rgba(201, 137, 62, 0.99),
-    rgb(209, 133, 46)
-  );
+  background-image: linear-gradient(to right, rgba(119, 182, 219, 0.9), rgba(127, 178, 203, 0.91), rgba(135, 173, 188, 0.92), rgba(144, 169, 172, 0.93), rgba(152, 164, 156, 0.94), rgba(160, 160, 140, 0.95), rgba(168, 155, 125, 0.95), rgba(176, 151, 109, 0.96), rgba(184, 146, 93, 0.97), rgba(193, 142, 77, 0.98), rgba(201, 137, 62, 0.99), rgb(209, 133, 46));
   height: 320px;
 }
 
@@ -108,59 +82,33 @@ p {
   border: thin;
   border-radius: 5px;
 }
+
 /*text*/
 .box-header-item {
   width: 500px;
   height: 500px;
   align-items: center;
   font-size: larger;
-  padding-top: 5%;
 }
 
+#header-text {
+  padding-top: 5%;
+}
 /*Виды установок*/
-.box-type1 {
-  /*фон тип 1*/
+.box-type1 {   /*фон тип 1*/
   display: flex;
   justify-content: space-around;
-  background-image: radial-gradient(
-    rgba(110, 186, 230, 0.9),
-    rgba(104, 178, 228, 0.91),
-    rgba(98, 171, 226, 0.92),
-    rgba(93, 163, 224, 0.93),
-    rgba(87, 156, 222, 0.94),
-    rgba(81, 148, 220, 0.95),
-    rgba(75, 141, 219, 0.95),
-    rgba(69, 133, 217, 0.96),
-    rgba(63, 126, 215, 0.97),
-    rgba(58, 118, 213, 0.98),
-    rgba(52, 111, 211, 0.99),
-    rgb(46, 103, 209)
-  );
+  background-image: radial-gradient(rgba(110, 186, 230, 0.9), rgba(104, 178, 228, 0.91), rgba(98, 171, 226, 0.92), rgba(93, 163, 224, 0.93), rgba(87, 156, 222, 0.94), rgba(81, 148, 220, 0.95), rgba(75, 141, 219, 0.95), rgba(69, 133, 217, 0.96), rgba(63, 126, 215, 0.97), rgba(58, 118, 213, 0.98), rgba(52, 111, 211, 0.99), rgb(46, 103, 209));
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 20px;
   color: rgb(0, 1, 7);
 }
 
-.box-type2 {
-  /*фон тип 2*/
-  display: flex;
+.box-type2 {  /*фон тип 2*/
+  display: flex; 
   justify-content: space-around;
-  background-image: linear-gradient(
-    to right,
-    rgba(119, 182, 219, 0.9),
-    rgba(127, 178, 203, 0.91),
-    rgba(135, 173, 188, 0.92),
-    rgba(144, 169, 172, 0.93),
-    rgba(152, 164, 156, 0.94),
-    rgba(160, 160, 140, 0.95),
-    rgba(168, 155, 125, 0.95),
-    rgba(176, 151, 109, 0.96),
-    rgba(184, 146, 93, 0.97),
-    rgba(193, 142, 77, 0.98),
-    rgba(201, 137, 62, 0.99),
-    rgb(209, 133, 46)
-  );
+  background-image: linear-gradient(to right, rgba(119, 182, 219, 0.9), rgba(127, 178, 203, 0.91), rgba(135, 173, 188, 0.92), rgba(144, 169, 172, 0.93), rgba(152, 164, 156, 0.94), rgba(160, 160, 140, 0.95), rgba(168, 155, 125, 0.95), rgba(176, 151, 109, 0.96), rgba(184, 146, 93, 0.97), rgba(193, 142, 77, 0.98), rgba(201, 137, 62, 0.99), rgb(209, 133, 46));
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 20px;
@@ -196,4 +144,39 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
   list-style: none;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+.theme-name {
+  font-style: italic;
+  font-size: large;
+}
+
+.box-names {
+  background-image: linear-gradient(to right, rgb(74, 139, 224), rgb(86, 137, 222), rgb(98, 135, 220), rgb(110, 133, 218), rgb(122, 131, 216), rgb(134, 129, 214), rgb(147, 126, 212), rgb(159, 124, 210), rgb(171, 122, 208), rgb(183, 120, 206), rgb(195, 118, 204), rgb(207, 116, 202));
+}
+
+@media screen and (max-width: 1200px) {
+    
+  .box-type1 {
+    display: block;
+  }
+  .box-type2 {
+   display: block;
+  }
+  .header-list {
+   display: inline-block;
+   align-content: space-around;
+   justify-content: space-around;
+  }
+  .header-list-item {
+   display: contents;
+  }     
+  .header-img {
+   height: 75%;
+   width: 75%;
+  } 
+  }
+>>>>>>> Stashed changes
