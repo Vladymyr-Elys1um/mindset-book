@@ -134,7 +134,14 @@ p {
   background-color: #164d7a;
   color: aliceblue;
 }
-
+.relations-box-quotation {
+  text-align: center;
+  font-size: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #164d7a;
+  color: aliceblue;
+}
 .footer {
   padding-top: 30px;
   padding-bottom: 30px;
