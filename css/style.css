@@ -39,6 +39,11 @@ li {
   font-size: large;
 }
 
+p {
+  font-size: large;
+  padding-top: 5px;
+}
+
 .header-list {
   display: flex;
   list-style: none;
@@ -159,6 +164,7 @@ li {
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .article {
@@ -191,11 +197,3 @@ li {
   font-size: 14px;
   list-style: none;
 }
-
-@media screen and (max-width: 1200px) {
-  .box-type1 {
-    display: block;
-  }
-  .box-type2 {
-   display: block;
-  }
