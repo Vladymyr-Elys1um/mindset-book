@@ -75,9 +75,8 @@ p {
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 20px;
-
   color: rgb(0, 1, 7);
-}
+  }
 
 .box-type2 {
   display: flex;
@@ -134,6 +133,11 @@ p {
 max-width: 75%;
 } */
 
+/* .first-box-item {
+ position:relative; 
+ top:150px
+} */
+
 .box-names {
   background-image: linear-gradient(to right, rgb(74, 139, 224), rgb(86, 137, 222), rgb(98, 135, 220), rgb(110, 133, 218), rgb(122, 131, 216), rgb(134, 129, 214), rgb(147, 126, 212), rgb(159, 124, 210), rgb(171, 122, 208), rgb(183, 120, 206), rgb(195, 118, 204), rgb(207, 116, 202));
   display: flex;
@@ -169,6 +173,18 @@ max-width: 75%;
   padding: 1%;
 }
 
+.bad-parents-box {
+  position:relative; 
+  bottom: 150px;
+  }
+
+ 
+.parents-img {
+ position:relative; 
+ right:20px
+ }
+
+
 @media screen and (max-width: 1200px) {
     
 .box-type1 {
@@ -201,12 +217,14 @@ max-width: 75%;
   font-size: large;
   }
 
-  #article-relationship{
-    justify-content: space-around;
+  .box-names {
+  display: block;
   }
 
-  .love-img{
+ 
+
+  /* .childs-img {
     display: none;
-  }
+  } */
 }
   
