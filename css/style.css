@@ -107,6 +107,7 @@ p {
   padding-bottom: 10px;
   background-color: #164d7a;
   color: aliceblue;
+  justify-content: space-around;
 }
 
 .footer {
@@ -170,22 +171,42 @@ max-width: 75%;
 
 @media screen and (max-width: 1200px) {
     
-  .box-type1 {
-    display: block;
-  }
-  .box-type2 {
-   display: block;
+.box-type1 {
+ display: block;
+ }
+ .box-type2 {
+  display: block;
   }
   .header-list {
-   display: inline-block;
-   align-content: space-around;
-   justify-content: space-around;
+  display: inline-block;
+  align-content: space-around;
+  justify-content: space-around;
   }
   .header-list-item {
-   display: contents;
+  display: contents;
   }     
   .header-img {
-   height: 75%;
-   width: 75%;
+  display: none;
+
   } 
+
+  .logo-2 {
+  display: none;
+  height: 25%;
+  width: 25%;
+  
   }
+  .box-header-item {
+  display: inline-block;
+  font-size: large;
+  }
+
+  #article-relationship{
+    justify-content: space-around;
+  }
+
+  .love-img{
+    display: none;
+  }
+}
+  
