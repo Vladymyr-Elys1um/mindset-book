@@ -47,7 +47,7 @@ p {
   padding-top: 15px;
   display: flex;
   justify-content: space-around;
-  background-image: linear-gradient(to right, rgba(119, 182, 219, 0.9), rgba(127, 178, 203, 0.91), rgba(135, 173, 188, 0.92), rgba(144, 169, 172, 0.93), rgba(152, 164, 156, 0.94), rgba(160, 160, 140, 0.95), rgba(168, 155, 125, 0.95), rgba(176, 151, 109, 0.96), rgba(184, 146, 93, 0.97), rgba(193, 142, 77, 0.98), rgba(201, 137, 62, 0.99), rgb(209, 133, 46));
+  background-image: linear-gradient(to right, rgba(235, 231, 221, 0.67), rgba(235, 225, 210, 0.7), rgba(235, 219, 199, 0.73), rgba(235, 213, 188, 0.76), rgba(235, 207, 177, 0.79), rgba(235, 201, 166, 0.82), rgba(235, 195, 154, 0.85), rgba(235, 189, 143, 0.88), rgba(235, 183, 132, 0.91), rgba(235, 177, 121, 0.94), rgba(235, 171, 110, 0.97), rgb(235, 165, 99));
   height: 320px;
 }
 
@@ -131,4 +131,32 @@ max-width: 75%;
 
 .box-names {
   background-image: linear-gradient(to right, rgb(74, 139, 224), rgb(86, 137, 222), rgb(98, 135, 220), rgb(110, 133, 218), rgb(122, 131, 216), rgb(134, 129, 214), rgb(147, 126, 212), rgb(159, 124, 210), rgb(171, 122, 208), rgb(183, 120, 206), rgb(195, 118, 204), rgb(207, 116, 202));
+  display: flex;
+}
+
+.logo-2 {
+  padding: 10%;
+
+}
+
+.parents-img {
+  padding-top: 50%;
+  border: thin;
+  border-radius: 5px;
+}
+.business-img {
+  padding: 1%;
+}
+.sport-img {
+  padding: 1%;
+}
+
+.love-img {
+  padding: 1%;
+}
+.childs-img {
+  padding: 1%;
+}
+.changes-img {
+  padding: 1%;
 }
