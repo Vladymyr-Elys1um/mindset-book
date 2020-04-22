@@ -412,3 +412,9 @@ p {
      transform: scale3d(1);
     transition: 1.5s;
 }
+
+.css-adaptive {
+display: block;
+max-width: 100%;
+height: auto;
+}
