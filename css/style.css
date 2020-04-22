@@ -180,6 +180,7 @@ p {
 .theme-name {
   font-style: italic;
   font-size: large;
+  padding-left: 40px;
 }
 
 .box-names2 {
@@ -375,4 +376,22 @@ p {
   font-weight: 700;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 5px;
+}
+
+
+.main-title {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  bottom: 50%;
+  line-height: 0px;
+  filter: contrast(10);
+}
+
+.second-box-item {
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
 }
