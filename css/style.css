@@ -53,20 +53,7 @@ p {
   padding-top: 0px;
   display: flex;
   justify-content: space-around;
-  background-image: linear-gradient(
-    to right,
-    rgba(235, 231, 221, 0.67),
-    rgba(235, 225, 210, 0.7),
-    rgba(235, 219, 199, 0.73),
-    rgba(235, 213, 188, 0.76),
-    rgba(235, 207, 177, 0.79),
-    rgba(235, 201, 166, 0.82),
-    rgba(235, 195, 154, 0.85),
-    rgba(235, 189, 143, 0.88),
-    rgba(235, 183, 132, 0.91),
-    rgba(235, 177, 121, 0.94),
-    rgba(235, 171, 110, 0.97),
-    rgb(235, 165, 99)
+ background-image: linear-gradient(to right, rgb(208, 210, 232), rgb(198, 205, 232), rgb(188, 201, 232), rgb(178, 196, 231), rgb(168, 191, 231), rgb(158, 187, 231), rgb(147, 182, 231), rgb(137, 178, 231), rgb(127, 173, 231), rgb(117, 168, 230), rgb(107, 164, 230), rgb(97, 159, 230));
   );
 }
 
@@ -135,6 +122,30 @@ p {
   padding-top: 10px;
 }
 
+.box-type4 {
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(
+    to right,
+    rgb(74, 139, 224),
+    rgb(86, 137, 222),
+    rgb(98, 135, 220),
+    rgb(110, 133, 218),
+    rgb(122, 131, 216),
+    rgb(134, 129, 214),
+    rgb(147, 126, 212),
+    rgb(159, 124, 210),
+    rgb(171, 122, 208),
+    rgb(183, 120, 206),
+    rgb(195, 118, 204),
+    rgb(207, 116, 202)
+  );
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
 .article {
   padding-bottom: 10px;
   padding-top: 10px;
@@ -172,23 +183,43 @@ p {
 }
 
 .box-names2 {
-  background-image: linear-gradient(
-    to right,
-    rgb(74, 139, 224),
-    rgb(86, 137, 222),
-    rgb(98, 135, 220),
-    rgb(110, 133, 218),
-    rgb(122, 131, 216),
-    rgb(134, 129, 214),
-    rgb(147, 126, 212),
-    rgb(159, 124, 210),
-    rgb(171, 122, 208),
-    rgb(183, 120, 206),
-    rgb(195, 118, 204),
-    rgb(207, 116, 202)
+  background-image: radial-gradient(
+    rgba(110, 186, 230, 0.9),
+    rgba(104, 178, 228, 0.91),
+    rgba(98, 171, 226, 0.92),
+    rgba(93, 163, 224, 0.93),
+    rgba(87, 156, 222, 0.94),
+    rgba(81, 148, 220, 0.95),
+    rgba(75, 141, 219, 0.95),
+    rgba(69, 133, 217, 0.96),
+    rgba(63, 126, 215, 0.97),
+    rgba(58, 118, 213, 0.98),
+    rgba(52, 111, 211, 0.99),
+    rgb(46, 103, 209)
   );
   display: flex;
   justify-content: center;
+}
+
+.box-names3 {
+  background-image: radial-gradient(
+    rgba(110, 186, 230, 0.9),
+    rgba(104, 178, 228, 0.91),
+    rgba(98, 171, 226, 0.92),
+    rgba(93, 163, 224, 0.93),
+    rgba(87, 156, 222, 0.94),
+    rgba(81, 148, 220, 0.95),
+    rgba(75, 141, 219, 0.95),
+    rgba(69, 133, 217, 0.96),
+    rgba(63, 126, 215, 0.97),
+    rgba(58, 118, 213, 0.98),
+    rgba(52, 111, 211, 0.99),
+    rgb(46, 103, 209)
+  );
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
 
 .box-names {
@@ -273,21 +304,7 @@ p {
 }
 
 .box-type3 {
-  background-image: linear-gradient(
-    to right,
-    rgba(119, 182, 219, 0.9),
-    rgba(127, 178, 203, 0.91),
-    rgba(135, 173, 188, 0.92),
-    rgba(144, 169, 172, 0.93),
-    rgba(152, 164, 156, 0.94),
-    rgba(160, 160, 140, 0.95),
-    rgba(168, 155, 125, 0.95),
-    rgba(176, 151, 109, 0.96),
-    rgba(184, 146, 93, 0.97),
-    rgba(193, 142, 77, 0.98),
-    rgba(201, 137, 62, 0.99),
-    rgb(209, 133, 46)
-  );
+  background-image: linear-gradient(to bottom right, rgb(179, 183, 224), rgb(168, 177, 224), rgb(158, 170, 224), rgb(147, 164, 224), rgb(136, 157, 224), rgb(125, 151, 224), rgb(115, 144, 224), rgb(104, 138, 224), rgb(93, 131, 224), rgb(82, 125, 224), rgb(72, 118, 224), rgb(61, 112, 224));
   padding: 3%;
 }
 
