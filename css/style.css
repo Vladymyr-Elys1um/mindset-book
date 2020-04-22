@@ -355,10 +355,7 @@ p {
     display: block;
   }
 
-  /* .childs-img {
-    display: none;
-  } */
-}
+  }
 
 .img-background {
   padding-bottom: 0;
@@ -449,3 +446,15 @@ height: auto;
   display: block;
   max-width: 100%;
 }
+
+.coggle-map {
+display: block;
+padding-top: 15px;
+margin-top: 10px;
+}
+
+.shadow {
+    background:  rgb(195, 118, 204); /* Цвет фона */
+    box-shadow: 15px; /* Параметры тени */
+    padding: 15px;
+   }
