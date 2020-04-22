@@ -106,6 +106,7 @@ p {
     rgb(46, 103, 209)
   );
   padding-left: 40px;
+  padding-right: 40px;
   padding-bottom: 20px;
   color: rgb(0, 1, 7);
 }
@@ -128,6 +129,8 @@ p {
     rgba(201, 137, 62, 0.99),
     rgb(209, 133, 46)
   );
+  padding-left: 40px;
+  padding-right: 40px;
   padding-bottom: 20px;
   padding-top: 10px;
 }
@@ -150,6 +153,7 @@ p {
   padding-bottom: 10px;
   background-color: #164d7a;
   color: aliceblue;
+  justify-content: space-around;
 }
 
 .footer {
@@ -168,13 +172,18 @@ p {
   font-size: large;
 }
 
-.first-box-item {
+/* .first-box-item {
   max-width: 40%;
 }
 
 .second-box-item {
-  max-width: 75%;
-}
+max-width: 75%;
+} */
+
+/* .first-box-item {
+ position:relative; 
+ top:150px
+} */
 
 .box-names {
   background-image: linear-gradient(
@@ -204,9 +213,11 @@ p {
   border: thin;
   border-radius: 5px;
 }
+
 .business-img {
   padding: 1%;
 }
+
 .sport-img {
   padding: 1%;
 }
@@ -214,9 +225,11 @@ p {
 .love-img {
   padding: 1%;
 }
+
 .childs-img {
   padding: 1%;
 }
+
 .changes-img {
   padding: 1%;
 }
@@ -262,4 +275,51 @@ p {
 
 .description-content {
   text-align: center;
+}
+.bad-parents-box {
+  position: relative;
+  bottom: 150px;
+}
+
+.parents-img {
+  position: relative;
+  right: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .box-type1 {
+    display: block;
+  }
+  .box-type2 {
+    display: block;
+  }
+  .header-list {
+    display: inline-block;
+    align-content: space-around;
+    justify-content: space-around;
+  }
+  .header-list-item {
+    display: contents;
+  }
+  .header-img {
+    display: none;
+  }
+
+  .logo-2 {
+    display: none;
+    height: 25%;
+    width: 25%;
+  }
+  .box-header-item {
+    display: inline-block;
+    font-size: large;
+  }
+
+  .box-names {
+    display: block;
+  }
+
+  /* .childs-img {
+    display: none;
+  } */
 }
