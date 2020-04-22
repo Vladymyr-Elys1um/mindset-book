@@ -11,9 +11,10 @@ li {
 
 .animated-title {
     text-align: center;
-    transform: scale(3);
+    transform: scale(2);
     transition: 1.5s;
     padding-bottom: 10px;
+    font-weight: 700;
 }
 
 p {
@@ -380,7 +381,7 @@ p {
 
 .article-top {
 
-  font-weight: 700;
+  font-weight: 400;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 10px;
   text-align: center;
@@ -407,6 +408,6 @@ p {
 }
 
 .first-par {
-     transform: scale3d(2);
+     transform: scale3d(1);
     transition: 1.5s;
 }
