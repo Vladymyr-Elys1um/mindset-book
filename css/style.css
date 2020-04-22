@@ -410,8 +410,9 @@ p {
 }
 
 .first-par {
-     transform: scale3d(1);
-    transition: 1.5s;
+  transform: scale3d(1);
+  transition: 1.5s;
+  padding: 2%;
 }
 
 .css-adaptive {
