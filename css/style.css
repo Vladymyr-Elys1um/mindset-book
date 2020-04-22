@@ -418,3 +418,33 @@ display: block;
 max-width: 100%;
 height: auto;
 }
+
+.box-type5 {
+  display: flex;
+  flex-direction: column;
+ 
+  background-image: radial-gradient(
+    rgba(110, 186, 230, 0.9),
+    rgba(104, 178, 228, 0.91),
+    rgba(98, 171, 226, 0.92),
+    rgba(93, 163, 224, 0.93),
+    rgba(87, 156, 222, 0.94),
+    rgba(81, 148, 220, 0.95),
+    rgba(75, 141, 219, 0.95),
+    rgba(69, 133, 217, 0.96),
+    rgba(63, 126, 215, 0.97),
+    rgba(58, 118, 213, 0.98),
+    rgba(52, 111, 211, 0.99),
+    rgb(46, 103, 209)
+  );
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  color: rgb(0, 1, 7);
+}
+
+.box-type5-item {
+  align-self: center;
+  padding: 10px;
+}
