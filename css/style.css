@@ -266,25 +266,9 @@ p {
   border-radius: 5px;
 }
 
-.business-img {
-  padding: 1%;
-}
-
-.sport-img {
-  padding: 1%;
-}
-
-.love-img {
-  padding: 1%;
-}
-
 .childs-img {
   padding-top: 15px;
   padding-left: 5px;
-}
-
-.changes-img {
-  padding: 1%;
 }
 
 .footer-team-button {
@@ -407,6 +391,7 @@ p {
   padding-right: 5%;
   text-align: justify;
   width: 200vh;
+  max-width: 80%;
 }
 
 .first-par {
@@ -455,4 +440,8 @@ height: auto;
 .xmap {
   font-weight: 700;
   padding: 2%;
+}
+
+.videobox {
+  max-width: 100%;
 }
