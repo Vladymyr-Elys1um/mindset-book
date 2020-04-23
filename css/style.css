@@ -179,6 +179,7 @@ p {
   text-align: center;
 }
 
+
 .footer {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -391,7 +392,14 @@ p {
   width: 200vh;
   display: block;
   max-width: 80%;
-  
+}
+
+.first-box-item {
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 200vh;
+  height: 35vh;
+  max-width: 50%;
 }
 
 .first-par {
