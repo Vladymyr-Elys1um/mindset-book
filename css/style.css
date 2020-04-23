@@ -397,10 +397,11 @@ p {
 .first-box-item {
   padding-left: 5%;
   padding-right: 5%;
-  width: 200vh;
-  height: 35vh;
   max-width: 50%;
+  text-align: justify;
 }
+
+
 
 .first-par {
   transform: scale3d(1);
